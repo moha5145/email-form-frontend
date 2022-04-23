@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form class="form-container" id="contact-form">
+        <h1>Formmulair de contact</h1>
+
+        <input type="text" placeholder="Prénome" id="firstname" name="firstname" />
+        <input type="text" placeholder="Nom" id="lastname" name="lastname" />
+        <input type="text" placeholder="Email" id="email" name="email" />
+        <input type="text" placeholder="Sujet" id="subject" name="subject" />
+        <textarea name="description" cols="30" rows="10" id="description" placeholder="Écrivez ici votre message..."></textarea>
+        <button type="submit">Envoyer le message</button>
+      </form>
+    </div>
+    <!-- <div class="modal hidden">
+      <div class="form-container">
+        <div>
+          <i class="icon-times"></i>
+          <p>Formulaire de contact</p>
+
+          <form id="contactForm">
+            <input type="text" name="firstname" id="firstname" placeholder="Prénom" autocomplete="off" />
+            <input type="text" name="lastname" id="lastname" placeholder="Nom" />
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <textarea name="description" id="description" rows="5" cols="50" placeholder="Écrivez ici votre message..."></textarea>
+            <input type="submit" value="Envoyer le formulaire" />
+          </form>
+        </div>
+      </div>
+    </div> -->
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
